@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(map.png);
+    background-size: cover;
+    filter: blur(8px);
+    z-index: -1;
+}
+
+
+.content-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#send {
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #fefefe;
+    border: 1px solid;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+#send:hover {
+    background-color: #cecece;
+}
+
+#autocomplete {
+    margin-right: 10px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #cecece;
+    border: 1px solid;
+}
