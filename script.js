@@ -5,6 +5,7 @@ tg.expand();
 window.onload=function(){
     new google.maps.places.Autocomplete((document.getElementById("autocomplete")), {
     types:'geocode'})
+    tg.MainButton.text = 'Отправить'
     tg.MainButton.show()
     tg.MainButton.enable()
 }
