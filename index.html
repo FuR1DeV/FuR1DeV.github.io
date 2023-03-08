@@ -9,19 +9,10 @@
 <body>
     <div class="bg-image"></div>
     <div class="content-container">
-        <textarea id="autocomplete" placeholder="Enter a place" rows="4"></textarea>
-        <button id="send">Отправить</button>        
+        <textarea id="autocomplete" placeholder="Enter a place" rows="4"></textarea>  
     </div>
 
     <script src="script.js" ></script>
-
-    <script type="text/javascript">
-        window.onload=function(){
-                new google.maps.places.Autocomplete((document.getElementById("autocomplete")), {
-                types:'geocode',
-            })
-        }
-    </script>
 
 </body>
 </html>
