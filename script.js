@@ -5,7 +5,7 @@ tg.expand()
 document.getElementById('send').onclick = myClick;
 
 function myClick() {
-    Telegram.Webapp.onEvent('send', function() {
+    Telegram.WebApp.onEvent('send', function() {
         tg.sendData(document.getElementById('autocomplete').value)
     })
 }
